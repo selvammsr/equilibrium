@@ -1,0 +1,75 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+.content {
+  background-color: hsl(215, 32%, 27%);
+  width: 22rem;
+  height: 40rem;
+  flex-direction: column;
+  margin: auto;
+  padding: 1.25rem;
+  justify-content: center;
+  gap: 1rem;
+}
+.content img {
+  max-width: 100%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 14px;
+}
+.grid h1{
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+.column {
+  font-size: 18px;
+  font-weight: 200;
+  color:  hsl(215, 51%, 70%);
+}
+.row {
+  width: auto;
+  height: auto;
+  display: flex;
+}
+.row2 img {
+  float: left;
+  margin-top: 15px;
+}
+.desk {
+  margin-left: 18px;
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+.row3 img {
+  float: left;
+  margin-left: 90px;
+  margin-top: 15px;
+  
+}
+.web {
+  margin-left: 110px;
+  font-weight: 300;
+  color:hsl(215, 51%, 70%);
+}
+.port {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+.port img{
+  float: left;
+  width: 2rem;
+  margin-left: 1px;
+}
+.poor{
+  margin-right: 138px;
+  font-weight: 300;
+  color:hsl(0, 0%, 100%);
+}
+hr{
+border-color: hsl(215, 32%, 27%);
+}

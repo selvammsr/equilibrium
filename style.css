@@ -10,6 +10,9 @@ body {
   padding: 1.25rem;
   justify-content: center;
   gap: 1rem;
+  color:white;
+  border-radius: 12px;
+
 }
 .content img {
   max-width: 100%;
@@ -68,8 +71,10 @@ body {
 .poor{
   margin-right: 138px;
   font-weight: 300;
-  color:hsl(0, 0%, 100%);
-}
-hr{
+  }
+.divider{
 border-color: hsl(215, 32%, 27%);
+}
+.creation{
+  color:hsl(215, 51%, 70%);
 }
